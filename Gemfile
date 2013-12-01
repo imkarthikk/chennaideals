@@ -22,6 +22,8 @@ gem 'sqlite3'
 gem 'carrierwave'
 
 gem 'devise'
+gem 'omniauth'
+gem 'omniauth-twitter'
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
