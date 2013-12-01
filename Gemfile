@@ -21,6 +21,8 @@ gem 'twitter-bootstrap-rails'
 gem 'sqlite3'
 gem 'carrierwave'
 
+gem 'devise'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 

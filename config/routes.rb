@@ -1,4 +1,5 @@
 Chennaideals::Application.routes.draw do
+  devise_for :users
   get "pages/status"
   root :to => redirect('/deals')
   resources :deals
