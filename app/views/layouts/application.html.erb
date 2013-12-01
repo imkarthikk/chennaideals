@@ -12,7 +12,10 @@
     <div class="container">
       <a class="brand" href="/">Chennai Deals - BO</a>
       <ul class="nav">
-        <li class="active"><a href="/ideas">Chennai Deals</a></li>
+        <li class="active"><a href="/deals">Chennai Deals</a></li>
+        <% if user_signed_in? %>
+        <li ><%= link_to 'New Deal', new_deal_path %></li>
+        <% end %>
       </ul>
       <p class="navbar-text pull-right">
 <% if user_signed_in? %>
