@@ -15,5 +15,8 @@
 /log/*.log
 /tmp
 public/uploads
+<<<<<<< HEAD
 tmp
+=======
+>>>>>>> ceeb56b53b9414db2143d9ad71085edde8edf657
 logs
